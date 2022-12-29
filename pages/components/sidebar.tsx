@@ -1,7 +1,7 @@
 export default function Sidebar() {
     return (
 <div className="flex flex-wrap w-full h-screen">          
-    <div className="w-2/12 bg-red-50 rounded p-3 shadow-lg">
+    <div className="w-2/12 rounded p-3 shadow-lg">
             <div>
                 <h3 className="font-bold font-serif py-2 px-1">Deparment</h3>
             </div>

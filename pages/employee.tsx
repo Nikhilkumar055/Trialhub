@@ -2,13 +2,14 @@ import React from 'react'
 import Header from './components/header'
 import FilterIcon from './components/icons/filterIcon'
 import GridIcon from './components/icons/gridIcon'
+import Navbar from './components/Navbar/navbar'
 import Sidebar from './components/sidebar'
 function employee() {
   return (
     <div>
         <div id="heading">
-        <Header />
-        <div id="employee-head" className='flex space-x-20 justify-between max-w-1280px mx-auto py-2 px-4 bg-red-50 border-solid border-y-2 border-black-500'>
+        <Navbar/>
+        <div id="employee-head" className='flex space-x-20 justify-between max-w-1280px mx-auto py-1 px-4 border-solid border-b border-black-500'>
             <div>
                 <h3 className='font-bold my-3'>Employee</h3>
             </div>
@@ -18,7 +19,7 @@ function employee() {
 
                 <FilterIcon / >
                 <GridIcon / >
-                <button className='border-2 px-4 py-0.4 hover:border-t-4 rounded-2xl'>Add</button>
+                <button className='border-2 px-6 hover:bg-black hover:text-white rounded-2xl'>Add</button>
             </div>
          </div>
          </div>
