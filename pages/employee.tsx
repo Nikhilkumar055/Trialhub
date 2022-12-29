@@ -1,7 +1,6 @@
 import React from 'react'
-import Header from './components/header'
 import FilterIcon from './components/icons/filterIcon'
-import GridIcon from './components/icons/gridIcon'
+import GridIcon from './components/icons/GridIcon'
 import Navbar from './components/Navbar/navbar'
 import Sidebar from './components/sidebar'
 function employee() {
@@ -9,7 +8,7 @@ function employee() {
     <div>
         <div id="heading">
         <Navbar/>
-        <div id="employee-head" className='flex space-x-20 justify-between max-w-1280px mx-auto py-1 px-4 border-solid border-b border-black-500'>
+        <div id="employee-head" className='flex space-x-20 justify-between max-w-1280px bg-white mx-auto py-1 px-4 border-solid border-b border-black-500'>
             <div>
                 <h3 className='font-bold my-3'>Employee</h3>
             </div>
@@ -30,4 +29,4 @@ function employee() {
   )
 }
 
-export default employee
+export default employee;

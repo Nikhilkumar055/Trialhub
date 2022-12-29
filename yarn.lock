@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@next/env@13.0.7":
-  "integrity" "sha512-ZBclBRB7DbkSswXgbJ+muF5RxfgmAuQKAWL8tcm86aZmoiL1ZainxQK0hMcMYdh+IYG8UObAKV2wKB5O+6P4ng=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-13.0.7.tgz"
-  "version" "13.0.7"
+"@next/env@13.1.1":
+  "integrity" "sha512-vFMyXtPjSAiOXOywMojxfKIqE3VWN5RCAx+tT3AS3pcKjMLFTCJFUWsKv8hC+87Z1F4W3r68qTwDFZIFmd5Xkw=="
+  "resolved" "https://registry.npmjs.org/@next/env/-/env-13.1.1.tgz"
+  "version" "13.1.1"
 
-"@next/swc-win32-x64-msvc@13.0.7":
-  "integrity" "sha512-kvdnlLcrnEq72ZP0lqe2Z5NqvB9N5uSCvtXJ0PhKvNncWWd0fEG9Ec9erXgwCmVlM2ytw41k9/uuQ+SVw4Pihw=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.0.7.tgz"
-  "version" "13.0.7"
+"@next/swc-win32-x64-msvc@13.1.1":
+  "integrity" "sha512-mVF0/3/5QAc5EGVnb8ll31nNvf3BWpPY4pBb84tk+BfQglWLqc5AC9q1Ht/YMWiEgs8ALNKEQ3GQnbY0bJF2Gg=="
+  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.1.1.tgz"
+  "version" "13.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -355,30 +355,30 @@
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
   "version" "3.3.4"
 
-"next@latest":
-  "integrity" "sha512-YfTifqX9vfHm+rSU/H/3xvzOHDkYuMuh4wsvTjiqj9h7qHEF7KHB66X4qrH96Po+ohdid4JY8YVGPziDwdXL0A=="
-  "resolved" "https://registry.npmjs.org/next/-/next-13.0.7.tgz"
-  "version" "13.0.7"
+"next@^13.1.1":
+  "integrity" "sha512-R5eBAaIa3X7LJeYvv1bMdGnAVF4fVToEjim7MkflceFPuANY3YyvFxXee/A+acrSYwYPvOvf7f6v/BM/48ea5w=="
+  "resolved" "https://registry.npmjs.org/next/-/next-13.1.1.tgz"
+  "version" "13.1.1"
   dependencies:
-    "@next/env" "13.0.7"
+    "@next/env" "13.1.1"
     "@swc/helpers" "0.4.14"
     "caniuse-lite" "^1.0.30001406"
     "postcss" "8.4.14"
-    "styled-jsx" "5.1.0"
+    "styled-jsx" "5.1.1"
   optionalDependencies:
-    "@next/swc-android-arm-eabi" "13.0.7"
-    "@next/swc-android-arm64" "13.0.7"
-    "@next/swc-darwin-arm64" "13.0.7"
-    "@next/swc-darwin-x64" "13.0.7"
-    "@next/swc-freebsd-x64" "13.0.7"
-    "@next/swc-linux-arm-gnueabihf" "13.0.7"
-    "@next/swc-linux-arm64-gnu" "13.0.7"
-    "@next/swc-linux-arm64-musl" "13.0.7"
-    "@next/swc-linux-x64-gnu" "13.0.7"
-    "@next/swc-linux-x64-musl" "13.0.7"
-    "@next/swc-win32-arm64-msvc" "13.0.7"
-    "@next/swc-win32-ia32-msvc" "13.0.7"
-    "@next/swc-win32-x64-msvc" "13.0.7"
+    "@next/swc-android-arm-eabi" "13.1.1"
+    "@next/swc-android-arm64" "13.1.1"
+    "@next/swc-darwin-arm64" "13.1.1"
+    "@next/swc-darwin-x64" "13.1.1"
+    "@next/swc-freebsd-x64" "13.1.1"
+    "@next/swc-linux-arm-gnueabihf" "13.1.1"
+    "@next/swc-linux-arm64-gnu" "13.1.1"
+    "@next/swc-linux-arm64-musl" "13.1.1"
+    "@next/swc-linux-x64-gnu" "13.1.1"
+    "@next/swc-linux-x64-musl" "13.1.1"
+    "@next/swc-win32-arm64-msvc" "13.1.1"
+    "@next/swc-win32-ia32-msvc" "13.1.1"
+    "@next/swc-win32-x64-msvc" "13.1.1"
 
 "node-releases@^2.0.6":
   "integrity" "sha512-dFSmB8fFHEH/s81Xi+Y/15DQY6VHW81nXRj86EMSL3lmuTmK1e+aT4wrFCkTbm+gSwkw4KpX+rT/pMM2c1mF+A=="
@@ -554,10 +554,10 @@
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
 
-"styled-jsx@5.1.0":
-  "integrity" "sha512-/iHaRJt9U7T+5tp6TRelLnqBqiaIT0HsO0+vgyj8hK2KUk7aejFqRrumqPUlAqDwAj8IbS/1hk3IhBAAK/FCUQ=="
-  "resolved" "https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.0.tgz"
-  "version" "5.1.0"
+"styled-jsx@5.1.1":
+  "integrity" "sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw=="
+  "resolved" "https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz"
+  "version" "5.1.1"
   dependencies:
     "client-only" "0.0.1"
 
