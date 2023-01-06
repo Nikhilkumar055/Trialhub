@@ -19,15 +19,12 @@ export default function UploadDocuments() {
     formData.append("aadharCard", aadharCard );
     formData.append("resume", resume );
 
-    // console.log("formData ;" , formData)
-    
     const url = "http://localhost:3000/AddEmployee";
     const response = await fetch(url, {
       method: "POST",
       body: formData,
     })
     const data = response.json();
-    // console.log("data : " , data)
     if(data){
       console.log("data: ", data);
       router.push("/");
