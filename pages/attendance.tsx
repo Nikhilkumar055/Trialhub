@@ -1,11 +1,11 @@
 import React from 'react'
-import FilterIcon from '../icons/filterIcon';
-import Navbar from '../Navbar/navbar';
-import AttendanceItem from './AttendanceItem';
+import FilterIcon from './components/icons/filterIcon';
+import Navbar from './components/Navbar/navbar'
+import AttendanceItem from './attendanceItem';
 
 const attendanceSheet = [
   {
-    dp:"https://www.w3schools.com/howto/img_avatar.png",
+    dp:"https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png",
     name:"Harsh",
     Department:"Web Design",
     Presence:true,
@@ -14,8 +14,8 @@ const attendanceSheet = [
     TotalWorkingHours:"8.00 Hrs",
   },
   {
-    dp:"https://www.w3schools.com/howto/img_avatar.png",
-    name:"Abhishek",
+    dp:"https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png",
+    name:"Harsh",
     Department:"Web Design",
     Presence:false,
     In:"8:30 AM",
@@ -23,7 +23,7 @@ const attendanceSheet = [
     TotalWorkingHours:"8.00 Hrs",
   },
   {
-    dp:"https://www.w3schools.com/howto/img_avatar.png",
+    dp:"https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png",
     name:"Harsh",
     Department:"Web Design",
     Presence:false,
@@ -46,7 +46,7 @@ function Attendance() {
                  <h3>18-12-2022</h3>
             </div>
     </div>
-    <div className="bg-white m-6 overflow-auto py-4 rounded-3xl">
+    <div className="bg-white my-6 overflow-auto md:m-6 md:rounded-3xl">
       <table className='w-full'>
         <tr>
           <th>DP</th>
