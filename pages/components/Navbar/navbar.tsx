@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import LinkTo from "./navlink";
+import LinkTo from "./LinkTo";
 import NotifyIcon from "../icons/NotifyIcon";
 import UsersIcon from "../icons/UsersIcon";
 import BurgerIcon from '../icons/BurgerIcon';
@@ -21,7 +21,7 @@ function Navbar() {
       <button
         onClick={clickHandler}
         type="button"
-        className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden"
+        className="flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden"
       >
       <BurgerIcon/>
       </button>
