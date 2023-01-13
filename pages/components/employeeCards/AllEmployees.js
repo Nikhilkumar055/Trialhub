@@ -10,7 +10,6 @@ export default function EmployeeCard() {
   const [end, setEnd] = useState(10);
   const [pageNum, setPageNum] = useState(1);
 
-  console.log(employeeData.length);
   return (
     <>
       <div className="flex flex-col sm:flex-row">
