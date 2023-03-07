@@ -48,6 +48,7 @@ function Attendance() {
     </div>
     <div className="bg-white m-6 overflow-auto py-4 rounded-3xl">
       <table className='w-full'>
+        <thead>
         <tr>
           <th>DP</th>
           <th>Name</th>
@@ -57,9 +58,12 @@ function Attendance() {
           <th>Out</th>
           <th>Total Working Hours</th>
         </tr>
+        </thead>
+        <tbody>
         {attendanceSheet.map((i,index) => (
          <AttendanceItem key = {index} item = {i}/>
         ))}
+        </tbody>
       </table>
     </div>
     </>
