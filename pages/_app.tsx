@@ -3,10 +3,12 @@ import type { AppProps } from "next/app";
 
 import Layout from "../components/Layout";
 import Attendance from "./components/Attendance/Attendance";
+import Meeting from "./components/meeting/meeting";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Attendance/>
+    <Meeting/>
+    // <Attendance/>
     // <Layout>
     //   <Component {...pageProps} />
     // </Layout>
