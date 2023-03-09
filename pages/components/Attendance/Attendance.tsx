@@ -46,7 +46,7 @@ function Attendance() {
                  <h3>18-12-2022</h3>
             </div>
     </div>
-    <div className="bg-white m-6 overflow-auto py-4 rounded-3xl">
+    <div className="bg-white m-4 overflow-auto py-2">
       <table className='w-full'>
         <thead>
         <tr>
